@@ -7,11 +7,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure Database (replace Npgsql with your provider if needed)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add services for controllers (new line)
 builder.Services.AddControllers();
 
 var app = builder.Build();
