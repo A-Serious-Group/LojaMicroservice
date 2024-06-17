@@ -97,3 +97,4 @@
 /home/nate/Documentos/univem/LojaMicroservice/obj/Debug/net8.0/ref/LojaMicroservice.dll
 /home/nate/Documentos/univem/LojaMicroservice/bin/Debug/net8.0/Npgsql.dll
 /home/nate/Documentos/univem/LojaMicroservice/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/nate/Documentos/univem/LojaMicroservice/obj/Debug/net8.0/LojaMicroservice.sourcelink.json
